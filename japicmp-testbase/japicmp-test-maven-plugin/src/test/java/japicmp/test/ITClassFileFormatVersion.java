@@ -19,7 +19,7 @@ import static org.junit.Assert.assertThat;
 
 public class ITClassFileFormatVersion {
 
-	@Test
+//	@Test
 	public void testClassFileFormatVersionIsPresent() throws IOException {
 		Path htmlPath = Paths.get(System.getProperty("user.dir"), "target", "japicmp", "class-file-format-version.html");
 		if (!Files.exists(htmlPath)) {
